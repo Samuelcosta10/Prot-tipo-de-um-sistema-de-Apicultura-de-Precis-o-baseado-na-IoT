@@ -1,0 +1,10 @@
+Este projeto aborda o crescente problema associado à morte das colónias das abelhas, conhecido como Desordem do Colapso da Colónia, e que resulta no rápido desaparecimento das colmeias, causando redução da rentabilidade apícola e impactando a polinização de plantas essenciais para a produção de alimentos.
+
+No presente relatório, após uma fase inicial de estudo da problemática e de possíveis tecnologias existentes que podem ser usadas no seu combate, é demonstrada a implementação de um protótipo de sistema baseado na Internet das Coisas, que permite a prática de uma Apicultura de Precisão em colmeias localizadas em locais distantes da rede elétrica.
+
+A implementação do sistema basea-se na construção de um node, de um sistema de alimentação solar que alimenta o node, e de um gateway. O node é incorporado com a tecnologia de comunicação LoRa, sendo que esta tecnologia permite comunicações de longo alcance e baixa potência.
+
+O node apresenta a capacidade de ligar e desligar uma armadilha elétrica (útil para o combate da Vespa velutina),
+consoante a intensidade da luz do local. Este node também capta e envia para o gateway por meio da sua antena e tecnologia LoRa, dados como temperatura, humidade, intensidade sonora, massa e estado do tratamento de parasitas. gateway encaminha as informações recebidas para a plataforma ThingSpeak via HTTP, sendo esta plataforma responsável por criar gráficos e alertas do estado da colmeia ao longo do tempo.
+
+Este projeto tem como objetivo fornecer aos apicultores uma ferramenta que aumente a rentabilidade da atividade apícola e contribua para a preservação do equilíbrio do ecossistema. Além disso, o sistema permite a expansão da rede com a inclusão de mais sensores, nodes e gateways.
